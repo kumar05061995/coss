@@ -12,7 +12,7 @@ workflow_dispatch:
   
 jobs:
   hello:
-  runs-on: ubuntu-latest
+  runs: ubuntu-latest
   steps:
    - uses: kumar05061995/coss/checkou 
    - name: hello world
